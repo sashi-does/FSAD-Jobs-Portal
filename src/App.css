@@ -65,3 +65,72 @@
     color: #4a9eff;
     text-decoration: underline;
 }
+
+#footer .copyrightText {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2D79BE;
+}
+
+#footer .socialmediaIcon{
+    width: 20px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#footer .socialmediaIcon:hover{
+    color: #4a9eff;
+    text-decoration: underline;
+}
+
+#content .text1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+#content .text2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    color: blue;
+}
+
+#content .text3{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    color: orange;
+}
+
+#content .searchBar{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: block;
+    background-color: #fdf1f4;
+    width: fit-content;
+    padding: 10px;
+    height: 30px;
+}
+
+#content .searchBar .searchjobText{
+    position: relative;
+    width: 200px;
+    height: 25px;
+    background: wheat;
+    background: url('/searchicon.png') no-repeat;
+    background-size: 40px 25px;
+}
