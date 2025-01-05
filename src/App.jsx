@@ -11,7 +11,7 @@ class App extends Component {
                 <label className='signinText'>Sign In</label>
                 </div>
                <div id="content">
-                <div className='text1'>India's No.1 Job Portal</div>
+                <div className='text1'>India's No.2 Job Portal</div>
                 <div className='text2'>Your job search ends here</div>
                 <div className='text3'>discover career opportunities</div>
                 <div className='searchBar'>
