@@ -16,7 +16,7 @@ class App extends Component {
                 <div className='text3'>discover career opportunities</div>
                 <div className='searchBar'>
                   <input type="text" className='searchjobText' placeholder='Search for jobs' />
-                  <input type="text" className='joblocationText' value="Search" />
+                  <input type="search" className='joblocationText' placeholder='Search by location'  />
                   <button className='searchjob'>Search Jobs</button>
                 </div>
                </div>

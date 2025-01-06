@@ -2,135 +2,156 @@
     width: 100%; 
     height: 100%; 
 } 
-
-#header{
-    width: 100%;
-    height: 70px;
-    background-color: #fdf1f4;
+#header{ 
+    width: 100%; 
+    height: 70px; 
+    background: #ffffff; 
+} 
+#content{ 
+    width: 100%; 
+    height: calc(100% - 110px); 
+    background: #f5f5f7; 
+} 
+#footer{ 
+    width: 100%; 
+    height: 40px; 
+    background: #1a1a1a; 
 }
-
-#content{
-    width: 100%;
-    height: calc(100% - 110px);
-    background-color: rgb(141, 141, 165);
-}
-#footer{
-    width: 100%;
-    height: 40px;
-    background-color: rgb(187, 187, 187);
-}
-
 #header .logo{
-    width: 45px;
+    width: 40px;
+    /* height: 40px; */  
     position: relative;
-    top: 10px;
-    left: 10px;
+    top:10px;
     float: left;
+    margin-left: 15px;
 }
 
-#header .logoText {
+#header .logoText{
     position: relative;
-    top: 10px;
-    margin-left: 10px;
-    float: left;
-    font-size: 20px;
+    top:18px;
+    margin-left: 9px;
+    font-size: 12pt;
     font-weight: bold;
+    float:left;
 }
-
 #header .logoText span{
-    color: #2D79BE;
+    color: #2557a7;
 }
-
 #header .signinIcon {
-    width: 45px;
+    width: 40px;
     position: relative;
-    top: 10px;
-    right: 10px;
+    top:10px;
     float: right;
+    margin-right: 15px;
     cursor: pointer;
 }
-
-#header .signinText {
+#header .signinText{
     position: relative;
-    top: 10px;
-    right: 10px;
-    float: right;
-    cursor: pointer;
-    font-size: 19px;
+    top:20px;
+    margin-right: 9px;
+    font-size: 14pt;
     font-weight: bold;
+    float:right;
+    cursor: pointer;
 }
-
 #header .signinText:hover,
-.signinIcon:hover + .signinText {
-    color: #4a9eff;
+.signinIcon:hover + .signinText
+{
+    color: #1f4787;
     text-decoration: underline;
 }
 
-#footer .copyrightText {
+#footer .copyrightText{
     position: relative;
-    top: 10px;
-    left: 10px;
-    float: left;
-    font-size: 15px;
+    top:10px;
+    margin-left: 15px;
+    font-size: 15pt;
     font-weight: bold;
-    color: #2D79BE;
+    float:left;
+    color: #ffffff;
 }
-
 #footer .socialmediaIcon{
     width: 20px;
+    /* height: 40px; */  
     position: relative;
-    top: 10px;
-    right: 10px;
+    top:10px;
     float: right;
+    margin-right: 15px;
     cursor: pointer;
-    margin-left: 10px;
 }
-
-#footer .socialmediaIcon:hover{
-    color: #4a9eff;
-    text-decoration: underline;
-}
-
 #content .text1{
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    margin-left: 15px;
+    font-size: 20pt;
     font-weight: bold;
-    color: red;
+    color: #2d2d2d;
 }
 
 #content .text2{
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: 24px;
+    margin-left: 10px;
+    font-size: 40pt;
     font-weight: bold;
-    color: blue;
+    color: #595959;
 }
-
 #content .text3{
     position: relative;
-    top: 10px;
-    left: 10px;
-    font-weight: bold;
-    color: orange;
+    top: 30px;
+    margin-left: 15px;
+    font-size: 30pt;
+    color: #2557a7;
 }
 
 #content .searchBar{
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: 40px;
+    margin-left: 15px;
     display: block;
-    background-color: #fdf1f4;
+    border-radius: 10px;
+    background: white;
     width: fit-content;
     padding: 10px;
-    height: 30px;
 }
 
-#content .searchBar .searchjobText{
-    position: relative;
-    width: 200px;
-    height: 25px;
+.searchBar .searchjobText{
+    width: 300px;
+    height: 34px;
+    padding-left:30px ;
+    border: none;
+    outline: none;
+    font-size: 12pt;
     background: wheat;
     background: url('/searchicon.png') no-repeat;
-    background-size: 40px 25px;
+    background-size: 40px 30px;
+    background-position: 0px center;
+}
+
+.joblocationText{
+    width: 300px;
+    height: 35px;
+    padding-left:40px ;
+    border: none;
+    outline: none;
+    border-left: 0.5px solid black;
+    font-size: 12pt;
+    background: url('/location.png') no-repeat;
+    background-size: 40px 30px;
+    background-position: 0px center;
+}
+
+.searchBar .searchjob {
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #2557a7;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.searchBar .searchjob:hover {
+    background: #1f4787;
 }
