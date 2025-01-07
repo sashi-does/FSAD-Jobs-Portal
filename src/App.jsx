@@ -4,6 +4,11 @@ class App extends Component {
     render() {
         return (
             <div id='container'>
+                <div id="popup">
+                    <div id="popupwindow">
+                        
+                    </div>
+                </div>
                <div id="header">
                 <img className='logo'src="logo.png" alt="job-portal logo" />
                 <div className="logoText"><span>Job</span> portal</div>
