@@ -159,9 +159,13 @@
 #popup {
     width: 100%;
     height: 100%;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
     position: fixed;
     z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #popupwindow{
