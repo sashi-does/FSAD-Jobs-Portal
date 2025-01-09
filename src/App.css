@@ -170,6 +170,77 @@
 
 #popupwindow{
     width: 300px;
-    height: 300px;
-    background: red;
+    height: 45%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#popupheader{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2557a7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #f5f5f7;
+}
+
+#signin{
+    width: 100%;
+    padding: 10px
+}
+
+.usernamelabel {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.passwordlabel {
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 14px;
+}
+
+.input-form {
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #f5f5f7;
+}
+
+#forgetpassword {
+    text-align: right;
+    margin-right: 19px;
+    font-size: 11pt;
+    margin-top: 10px;
+}
+
+.forgetlabel {
+    color: #2557a7;
+    cursor: pointer;
+}
+
+.forgetlabel:hover {
+    color: #1f4787;
+}
+
+#signinButton {
+    width: 94%;
+    height: 30px;
+    margin-top: 10px;
+    background: #2557a7;  
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signinButton:hover {
+    background: #1f4787;
 }

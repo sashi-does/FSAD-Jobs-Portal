@@ -6,7 +6,23 @@ class App extends Component {
             <div id='container'>
                 <div id="popup">
                     <div id="popupwindow">
-                        
+                        <div id="popupheader">
+                            <label className='popupheaderText'>Login</label>
+                        </div>
+                        <div id="signin">
+                            <label htmlFor="username" className='usernamelabel'>Username</label>
+                            <input id="username" type="text" className='input-form' placeholder='Email' />
+                            <label className='passwordlabel'>Password</label>
+                            <input id="password" type="password" className='input-form' placeholder='Password' />
+                            <div id="forgetpassword">
+                            Forget <label className='forgetlabel'> Password</label>
+                            </div>
+                            <button type="submit" id="signinButton">Sign In</button>
+                            <div className='div1'></div>
+                            <div className='div2'>
+                                Don't have an account? <a href="/signup">Sign Up</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                <div id="header">
